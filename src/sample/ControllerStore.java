@@ -24,24 +24,16 @@ public class ControllerStore implements Initializable{
 
     }
     @FXML
-    public void buttonTest(ActionEvent ae){
-        System.out.println("IT WORKS!");
+    public void handleBuyButton(ActionEvent ae){
+        System.out.println("You've bought 5 bananas");
     }
     @FXML
     public void handleBackButton(ActionEvent ae) throws IOException {
-        //Skapar en ny node och sätter den till actionEvents source
-        Node node = (Node)ae.getSource();   //getSource returnerar var actioneventet hände
-        //Skapar en stage som sätter scenen till den vi är på
+        Node node = (Node)ae.getSource();
         Stage stage = (Stage)node.getScene().getWindow();
-
-        //skapar en loader som sätts till "samplescene2"
         FXMLLoader loader = new FXMLLoader(getClass().getResource("sample.fxml"));
-        //skapar en ny parent som sätts till loader
         Parent root = loader.load();
-
-        //skapar en ny scene
         Scene scene = new Scene(root);
-        //byter scene
         stage.setScene(scene);
     }
 }

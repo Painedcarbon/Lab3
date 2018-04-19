@@ -35,20 +35,13 @@ public class Controller implements Initializable{
         }
     }
     @FXML
-    public void handleBackButton(ActionEvent ae) throws IOException {
-        //Skapar en ny node och sätter den till actionEvents source
+    public void loginToStore(ActionEvent ae) throws IOException {
+
         Node node = (Node)ae.getSource();   //getSource returnerar var actioneventet hände
-        //Skapar en stage som sätter scenen till den vi är på
         Stage stage = (Stage)node.getScene().getWindow();
-
-        //skapar en loader som sätts till "samplescene2"
         FXMLLoader loader = new FXMLLoader(getClass().getResource("store.fxml"));
-        //skapar en ny parent som sätts till loader
         Parent root = loader.load();
-
-        //skapar en ny scene
         Scene scene = new Scene(root);
-        //byter scene
         stage.setScene(scene);
     }
 }
