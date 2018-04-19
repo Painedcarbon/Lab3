@@ -44,4 +44,16 @@ public class Controller implements Initializable{
         Scene scene = new Scene(root);
         stage.setScene(scene);
     }
+    public boolean correctUser(String name, String password){
+        String dbName = "Marcus"; // Get this from DB
+        String dbPassword = "secret";
+        if(name == dbName && password == dbPassword) {
+            System.out.println("User information correct");
+            return true;
+        }
+        else {
+            System.out.println("Wrong username or password");
+            return false;
+        }
+    }
 }
