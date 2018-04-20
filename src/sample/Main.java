@@ -8,6 +8,8 @@ import javafx.stage.Stage;
 
 public class Main extends Application {
 
+    public static DB_Connection connection;
+
     @Override
     public void start(Stage primaryStage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("login.fxml"));
@@ -16,7 +18,7 @@ public class Main extends Application {
         primaryStage.show();
 
         //test connection
-        DB_Connection connection = new DB_Connection();
+        connection = new DB_Connection();
     }
 
 

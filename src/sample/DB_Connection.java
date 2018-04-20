@@ -38,11 +38,11 @@ public class DB_Connection {
     }
 
     public ObservableList<Product> getProductList() {
-        List<Product> results=new ArrayList<>();
+        List<Product> results = new ArrayList<>();
         try {
-            rs=statement.executeQuery("SELECT * FROM product");
-            while (rs.next()){
-                Product product=new Product(rs.getInt("id"),rs.getString("name"),rs.getInt("quantity"),rs.getInt(rs.getString("Store_name")));
+            rs = statement.executeQuery("SELECT * FROM product");
+            while (rs.next()) {
+                Product product = new Product(rs.getInt("id"), rs.getString("name"), rs.getInt("quantity"));
                 results.add(product);
             }
         } catch (SQLException e) {

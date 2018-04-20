@@ -36,7 +36,6 @@ public class LoginController implements Initializable {
 
     @FXML
     public void loginToStore(ActionEvent ae) throws IOException {
-        DB_Connection connection = new DB_Connection();
 
         //add user in db: INSERT  INTO user(id,name,password) values (0,'danfeng','123')
         //danfeng,123
@@ -46,7 +45,7 @@ public class LoginController implements Initializable {
         String name = textName.getText();
         String password = textPassword.getText();
 
-        if (connection.loginWith(name, password)) {
+        if (Main.connection.loginWith(name, password)) {
             Node node = (Node) ae.getSource();
             Stage stage = (Stage) node.getScene().getWindow();
 

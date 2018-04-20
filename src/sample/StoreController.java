@@ -29,15 +29,15 @@ public class StoreController implements Initializable {
     @Override
     public void initialize(URL location, ResourceBundle resources) {
 
-        DB_Connection connection = new DB_Connection();
-
-        product.setCellValueFactory(new PropertyValueFactory<Product, String>("name"));
-        quantity.setCellValueFactory(new PropertyValueFactory<Product, String>("quantity"));
+        //set TableColumns value
+        product.setCellValueFactory(new PropertyValueFactory<>("name"));
+        quantity.setCellValueFactory(new PropertyValueFactory<>("quantity"));
+        //get product list
+        tableView.setItems(Main.connection.getProductList());
     }
 
     @FXML
     public void handleBuyButton(ActionEvent ae) {
-
 
     }
 

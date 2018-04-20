@@ -13,7 +13,7 @@
    <children>
       <ImageView fitHeight="400.0" fitWidth="287.0" layoutX="-47.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../backgound.png" />
+            <Image url="@images/backgound.png" />
          </image>
       </ImageView>
       <Button fx:id="buttonLogin" layoutX="252.0" layoutY="265.0" mnemonicParsing="false" onAction="#loginToStore" prefHeight="39.0" prefWidth="149.0" style="-fx-background-color: F08080;" text="Login">
