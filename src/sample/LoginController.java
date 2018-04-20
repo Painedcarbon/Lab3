@@ -1,7 +1,5 @@
 package sample;
 
-import javafx.beans.value.ChangeListener;
-import javafx.beans.value.ObservableValue;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -14,10 +12,8 @@ import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 
-import java.awt.event.MouseEvent;
 import java.io.IOException;
 import java.net.URL;
-import java.util.EventListener;
 import java.util.ResourceBundle;
 
 public class LoginController implements Initializable {
@@ -49,7 +45,6 @@ public class LoginController implements Initializable {
         //tröttpappa,123
         String name = textName.getText();
         String password = textPassword.getText();
-        System.out.println(name + password);
 
         if (connection.loginWith(name, password)) {
             Node node = (Node) ae.getSource();
