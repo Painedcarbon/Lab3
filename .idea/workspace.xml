@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="73707e0f-feab-4e1e-8c31-3194967421ce" name="Default" comment="dabase connection&#10;login implementaion&#10;rename some files">
-      <change afterPath="$PROJECT_DIR$/src/sample/images/backgound.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/images/background-fashion-slider3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab3/sample/DB_Connection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab3/sample/DB_Connection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab3/sample/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab3/sample/LoginController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab3/sample/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab3/sample/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab3/sample/StoreController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab3/sample/StoreController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab3/sample/login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab3/sample/login.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab3/sample/store.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab3/sample/store.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/DB_Connection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/DB_Connection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/StoreController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/StoreController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/login.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/store.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/store.fxml" afterDir="false" />
-    </list>
+    <list default="true" id="73707e0f-feab-4e1e-8c31-3194967421ce" name="Default" comment="dabase connection&#10;login implementaion&#10;rename some files" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -44,8 +27,8 @@
       <file leaf-file-name="StoreController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sample/StoreController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+            <state relative-caret-position="238">
+              <caret line="29" column="43" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -175,7 +158,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="ter&#9;ACTION&#9;ActivateTerminalToolWindow&#10;termi&#9;ACTION&#9;ActivateTerminalToolWindow" />
+    <property name="SearchEverywhereHistoryKey" value="termi&#9;ACTION&#9;ActivateTerminalToolWindow&#10;ter&#9;ACTION&#9;ActivateTerminalToolWindow" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/mysql-connector-java-5.1.28/mysql-connector-java-5.1.28-bin.jar!/" />
@@ -284,6 +267,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -295,7 +279,7 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32943678" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.33156216" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.83953243" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1125" />
@@ -444,8 +428,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/StoreController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+        <state relative-caret-position="238">
+          <caret line="29" column="43" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
         </state>
       </provider>
     </entry>
