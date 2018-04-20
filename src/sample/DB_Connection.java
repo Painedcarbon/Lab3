@@ -3,7 +3,7 @@ package sample;
 import java.sql.*;
 
 public class DB_Connection {
-    String url = "jdbc:mysql://127.0.0.1:3306/yattdb?user=root&password=root";
+    String url = "jdbc:mysql://192.168.1.3:3306/yattdb?user=root&password=root";
 
     Statement statement;
 

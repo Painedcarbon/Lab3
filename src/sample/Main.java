@@ -14,6 +14,8 @@ public class Main extends Application {
         primaryStage.setTitle("Login");
         primaryStage.setScene(new Scene(root));
         primaryStage.show();
+
+        DB_Connection connection = new DB_Connection();
     }
 
 
