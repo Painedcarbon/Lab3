@@ -28,7 +28,7 @@ public class LoginController implements Initializable {
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         storeCombo.setValue("YATT");
-        storeCombo.getItems().addAll("YATT", "Others");
+        storeCombo.getItems().addAll("YATT", "SQS");
 
         textName.focusedProperty().addListener((ChangeListener -> errorMessage.setText("")));
         textPassword.focusedProperty().addListener((ChangeListener -> errorMessage.setText("")));
@@ -42,19 +42,21 @@ public class LoginController implements Initializable {
         //tobb,123
         //ragmunk,123
         //tröttpappa,123
+        String store = storeCombo.getValue();
         String name = textName.getText();
         String password = textPassword.getText();
+        System.out.println(store+name+password);
 
-        if (Main.connection.loginWith(name, password)) {
+        if (Main.connection.login(store, name, password)) {
             Node node = (Node) ae.getSource();
             Stage stage = (Stage) node.getScene().getWindow();
 
             Parent root = FXMLLoader.load(getClass().getResource("store.fxml"));
             stage.setScene(new Scene(root));
-            stage.setTitle("Store");
+            stage.setTitle(store);
+            stage.show();
         } else {
             errorMessage.setText("The username or password id is incorrect");
         }
     }
-
 }

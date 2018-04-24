@@ -9,7 +9,6 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
-import javafx.scene.control.TextField;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.stage.Stage;
 
@@ -20,11 +19,9 @@ import java.util.ResourceBundle;
 public class StoreController implements Initializable {
 
     @FXML
-    private TableView tableView;
+    private TableView<Product> tableView;
     @FXML
     private TableColumn product, quantity;
-    @FXML
-    private TextField textAmount;
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
@@ -36,9 +33,11 @@ public class StoreController implements Initializable {
         tableView.setItems(Main.connection.getProductList());
     }
 
+
     @FXML
     public void handleBuyButton(ActionEvent ae) {
-
+        Main.connection.decreaseProductQuantity(tableView.getSelectionModel().getSelectedItem());
+        tableView.setItems(Main.connection.getProductList());
     }
 
     @FXML
