@@ -41,10 +41,6 @@ public class LoginController implements Initializable {
     public void loginToStore(ActionEvent ae) throws IOException {
 
         //add user in db: INSERT  INTO user(id,name,password) values (0,'danfeng','123')
-        //danfeng,123
-        //tobb,123
-        //ragmunk,123
-        //tröttpappa,123
         String store = storeCombo.getValue();
         String name = textName.getText();
         String password = textPassword.getText();
