@@ -9,6 +9,7 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.Label;
+import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 
@@ -21,7 +22,9 @@ public class LoginController implements Initializable {
     @FXML
     private ComboBox<String> storeCombo;
     @FXML
-    private TextField textName, textPassword;
+    private TextField textName;
+    @FXML
+    private PasswordField textPassword;
     @FXML
     private Label errorMessage;
 
@@ -45,7 +48,7 @@ public class LoginController implements Initializable {
         String store = storeCombo.getValue();
         String name = textName.getText();
         String password = textPassword.getText();
-        System.out.println(store+name+password);
+        System.out.println(store + name + password);
 
         if (Main.connection.login(store, name, password)) {
             Node node = (Node) ae.getSource();

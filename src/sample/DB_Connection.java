@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class DB_Connection {
-    String url = "jdbc:mysql://194.47.40.214:3306/onlinedb?user=root&password=root";
+    String url = "jdbc:mysql://localhost:3306/onlinedb?user=root&password=root";
 
     Statement statement;
     ResultSet rs;
@@ -79,10 +79,10 @@ public class DB_Connection {
         return FXCollections.observableArrayList(results);
     }
 
-    public void decreaseProductQuantity(Product product){
+    public void decreaseProductQuantity(Product product, int amount) {
         try {
             System.out.println(product.getName());
-            PreparedStatement updateQuantity=c.prepareStatement("UPDATE product SET quantity=quantity-1 WHERE name='"+product.getName()+"'");
+            PreparedStatement updateQuantity = c.prepareStatement("UPDATE product SET quantity=quantity-" + amount + " WHERE name='" + product.getName() + "'");
             updateQuantity.executeUpdate();
         } catch (SQLException e) {
             e.printStackTrace();
