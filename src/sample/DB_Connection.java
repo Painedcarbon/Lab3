@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class DB_Connection {
-    String url = "jdbc:mysql://127.0.0.1:3306/onlinedb?user=root&password=root";
+    String url = "jdbc:mysql://194.47.40.214:3306/onlinedb?user=root&password=root";
 
     Statement statement;
     ResultSet rs;

@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="73707e0f-feab-4e1e-8c31-3194967421ce" name="Default" comment="dabase connection&#10;login implementaion&#10;rename some files">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab3/sample/DB_Connection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab3/sample/DB_Connection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab3/sample/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab3/sample/LoginController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab3/sample/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab3/sample/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab3/sample/StoreController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab3/sample/StoreController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab3/sample/store.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab3/sample/store.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/DB_Connection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/DB_Connection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/StoreController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/StoreController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/store.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/store.fxml" afterDir="false" />
-    </list>
+    <list default="true" id="73707e0f-feab-4e1e-8c31-3194967421ce" name="Default" comment="dabase connection&#10;login implementaion&#10;rename some files" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,8 +15,8 @@
       <file leaf-file-name="StoreController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sample/StoreController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="39" column="59" selection-start-line="39" selection-start-column="59" selection-end-line="39" selection-end-column="59" />
+            <state relative-caret-position="252">
+              <caret line="39" column="61" lean-forward="true" selection-start-line="39" selection-start-column="61" selection-end-line="39" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -41,11 +27,20 @@
       <file leaf-file-name="DB_Connection.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/DB_Connection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-79">
-              <caret line="58" column="8" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="22" />
+            <state relative-caret-position="363">
+              <caret line="84" column="94" selection-start-line="84" selection-start-column="94" selection-end-line="84" selection-end-column="94" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Product.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/Product.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
             </state>
           </provider>
         </entry>
@@ -250,12 +245,12 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3960396" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3960396" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.83953243" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.83828384" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15960665" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15960665" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -506,13 +501,6 @@
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/javafx-src.zip!/com/sun/javafx/application/LauncherImpl.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/jre/lib/rt.jar!/sun/launcher/LauncherHelper.class" />
     <entry file="file://$PROJECT_DIR$/src/sample/image.java" />
-    <entry file="file://$PROJECT_DIR$/src/sample/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -562,18 +550,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/DB_Connection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-79">
-          <caret line="58" column="8" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="22" />
+        <state relative-caret-position="363">
+          <caret line="84" column="94" selection-start-line="84" selection-start-column="94" selection-end-line="84" selection-end-column="94" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/StoreController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="39" column="59" selection-start-line="39" selection-start-column="59" selection-end-line="39" selection-end-column="59" />
+        <state relative-caret-position="252">
+          <caret line="39" column="61" lean-forward="true" selection-start-line="39" selection-start-column="61" selection-end-line="39" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
